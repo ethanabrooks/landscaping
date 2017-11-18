@@ -5,5 +5,6 @@ default:
 
 clean:
 	rm -rf build/
-	rm *.c
-	rm *.so
+	rm -f *.c
+	rm -f pyx/*.c
+	rm -f *.so
