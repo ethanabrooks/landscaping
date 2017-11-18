@@ -2,4 +2,4 @@
 
 from distutils.core import setup
 from Cython.Build import cythonize
-setup(ext_modules = cythonize(["Landscaping.pyx", "Shrubbing.pyx"]))
+setup(ext_modules = cythonize(["pyx/Landscaping.pyx", "pyx/Shrubbing.pyx"]))
