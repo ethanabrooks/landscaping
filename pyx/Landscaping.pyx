@@ -1,6 +1,6 @@
+import pyx.Shrubbing
 cimport Shrubbing
-import Shrubbing
 
 cdef Shrubbing.Shrubbery sh
-sh = Shrubbing.standard_shrubbery()
+sh = pyx.Shrubbing.standard_shrubbery()
 print "Shrubbery size is %d x %d" % (sh.width, sh.length)
