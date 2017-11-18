@@ -1,6 +1,6 @@
 default:
 	python setup.py build_ext --inplace
-	python -c 'import Landscaping'
+	python -c 'import pyx.Shrubbing; import pyx.Landscaping'
 
 
 clean:
